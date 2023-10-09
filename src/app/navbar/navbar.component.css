@@ -1,4 +1,9 @@
-
+  a{
+    text-decoration: none;
+  }
+  .logo{
+    color: var(--color-5);
+  }
   .nav {
     z-index: 999;
     display: flex;
