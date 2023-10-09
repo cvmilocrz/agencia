@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
+
 
 @Component({
   selector: 'app-contacto',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
 })
 export class ContactoComponent {
 
+  
 
 }

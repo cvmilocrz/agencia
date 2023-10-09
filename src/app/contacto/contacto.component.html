@@ -12,7 +12,8 @@
         <div class="formulario">
             <h1>CUENTANOS ACERCA DE TU PROYECTO</h1>
 
-            <form action="https://formsubmit.co/camiloc9203@gmail.com" method="POST" autocomplete="off">
+            <form #formulario action="https://formsubmit.co/camiloc9203@gmail.com" method="POST" autocomplete="off">
+
                 <div class="np">
                     <div class="places">
                         <input type="text" id="nombre" name="nombre" placeholder="nombre" required><br><br>
@@ -48,7 +49,6 @@
                 <div class="botn">
                     <input class="env" type="submit" value="Enviar">
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://confirmacion-proyecto.netlify.app">
                 </div>
             </form>
         </div>

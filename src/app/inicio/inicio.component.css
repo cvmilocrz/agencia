@@ -144,8 +144,8 @@
 
     .work,
     .work1,
-    .work2,
-    .work3{
+    .work2
+    {
         position: relative; 
         height: 300px;
         width: 300px;
@@ -153,6 +153,15 @@
         background-position: center;
         transition: 0.3s ease-in-out;
     }
+    .work3{
+        position: relative; 
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        background-position: left;
+        transition: 0.3s ease-in-out;
+    }
+
 
     
     .work {
