@@ -1,37 +1,37 @@
 @media (max-width: 1102px){
 
-    .formulario h1{
-        font-weight: bold;
-    }
-    .contact{
-        padding-top: 50px;
+    .contact {
         height: 100vh;
-        width: 100%;
+        padding-bottom: 50px;
         display: flex;
         flex-direction: column;
         background-color: whitesmoke;
         justify-content: center;
         align-items: center;
+        margin: 0; /* Agregado para asegurarse de que no haya márgenes no deseados */
     }
-    .title h1{
+
+    .title h1 {
         color: rgb(71, 71, 71);
         font-family: 'Oswald', sans-serif;
-        font-size: 2rem;
-        justify-content: center;
-        align-items: center;
+        font-size: 3rem;
         text-align: center;
     }
-    .hi{
+
+    .hi {
         color: var(--color-5);
     }
-    .formulario{
-        width: 100%;
+
+    .formulario {
+        background-color: transparent;
         justify-content: center;
         align-items: center;
     }
     .formulario h1{
-        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 40px;
     }
+    
     
     ::placeholder, #tipo_proyecto, input, textarea{
     
@@ -59,11 +59,12 @@
         display: flex;
         flex-direction: column;
     }
-    
     form {
+        margin-left: 5%;
+        margin-right: 5%;
         justify-content: center;
         align-items: center;
-        background: none; /* Quita el fondo */
+        background: transparent; /* Quita el fondo */
         border: none; /* Quita los bordes */
     }
     
@@ -73,6 +74,10 @@
         border: none; /* Quita los bordes de los campos de texto */
         outline: none; /* Quita el resaltado del cuadro de entrada */
         background-color: transparent; /* Hace que el fondo sea transparente */
+    }
+    textarea{
+        margin-top: 20px;
+        width: 99%;
     }
     
     select#tipo_proyecto {
@@ -88,11 +93,6 @@
     /* Estilo personalizado para la flecha */
     select#tipo_proyecto::after {
         padding-left: 5px; /* Añade un espaciado para la imagen de la flecha */
-    }
-    .places{
-        margin: 10px;
-        justify-content: center;
-        align-items: center;
     }
     .ln, .la, .le, .lm{
     
@@ -121,7 +121,7 @@
         background-image: none !important;
         color: inherit !important;
     }
-    .botn{
+    .botn {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -196,6 +196,9 @@
         border: none; /* Quita los bordes de los campos de texto */
         outline: none; /* Quita el resaltado del cuadro de entrada */
         background-color: transparent; /* Hace que el fondo sea transparente */
+    }
+    textarea{
+        width: 99%;
     }
     
     select#tipo_proyecto {

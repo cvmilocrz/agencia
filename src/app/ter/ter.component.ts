@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class TerComponent {
 
+  scrollToTop() { 
+
+    window.scrollTo({
+      top: 0
+    });
+  }
+
 }

@@ -1,4 +1,5 @@
 import { Component, ElementRef} from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-portafolio',
@@ -7,7 +8,9 @@ import { Component, ElementRef} from '@angular/core';
 })
 export class PortafolioComponent {
 
-  constructor(private el: ElementRef) {}
+  constructor(private el: ElementRef, private router: Router) {}
+
+
 
   Scrollini(){
     const seccion = this.el.nativeElement.querySelector('#scrollto');
@@ -33,7 +36,14 @@ export class PortafolioComponent {
     { nombre: 'Animaciones AF', tecnologias: 'After Effects', cssClass: 'work4', url: "/animaciones" }
     // Agrega más proyectos aquí
   ];
-  
+
+  navegarAComponente(url: string) {
+    if (url.startsWith('/')) {
+      this.router.navigateByUrl(url);
+    } else {
+      window.open(url, '_blank'); // Abre en una nueva ventana/tab si es una URL externa.
+    }
+  }
 
   page = 1;
   itemsPerPage = 4; // Cambia este número según tus necesidades

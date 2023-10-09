@@ -514,6 +514,7 @@
     
     
     .viewp{
+        cursor: pointer;
         visibility: hidden;
         transition: 0.3s ease-in-out;
         opacity: 0;

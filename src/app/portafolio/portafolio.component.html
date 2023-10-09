@@ -21,20 +21,21 @@
 </section>
 
 <section class="seccion3" id="scrollto">
-    <div class="works">
-      <div class="row" *ngFor="let proyecto of proyectos | paginate: { itemsPerPage: itemsPerPage, currentPage: page }">
-        <div [ngClass]="proyecto.cssClass">
-          <div class="workcontent">
-            <h1>{{ proyecto.nombre }}</h1>
-            <h6>{{ proyecto.tecnologias }}<br>
-              <span class="viewp">
-                <a [href]="proyecto.url" target="_blank">Ver proyecto</a>
-              </span>
-            </h6>
-          </div>
+  
+  <div class="works">
+    <div class="row" *ngFor="let proyecto of proyectos | paginate: { itemsPerPage: itemsPerPage, currentPage: page }">
+      <div [ngClass]="proyecto.cssClass" (click)="navegarAComponente(proyecto.url)">
+        <div class="workcontent">
+          <h1>{{ proyecto.nombre }}</h1>
+          <h6>{{ proyecto.tecnologias }}<br>
+            <span class="viewp">
+              Ver proyecto
+            </span>
+          </h6>
         </div>
       </div>
     </div>
+  </div>
     
     <div class="my-pagination" (click)="scrollToTop()">
       <pagination-controls (pageChange)="page = $event"
