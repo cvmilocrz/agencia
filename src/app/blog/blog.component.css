@@ -1,0 +1,484 @@
+@media (max-width: 767px){
+    .navdel{
+        height: 110px;
+        background-color: transparent;
+        width: auto;
+    }
+    .textini{
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .textini h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        color: var(--color-5);
+    }
+    .textini h6{
+        transform: translateY(-50px);
+        font-size: 1rem;
+    }
+    
+    .blog{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+        width: 100%;
+        background-color: var(--tt);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .works {
+        align-items: center; 
+    }
+    
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: auto; 
+    }
+    .work,
+    .work1,
+    .work2,
+    .work3
+    {
+        margin: 20px;
+        position: relative; 
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        background-position: left;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .work {
+        background-image: url(src\assets\blog\portafolio\cvmilo.png);
+    }
+    .work1 {
+        background-image: url(src\assets\blog\cvmilo\cvmilo.png);
+    }
+    .work2 {
+        background-image: url(src\assets\prtfl\ter\ter.png);
+    }
+    .work3 {
+        background-image: url(src\assets\prtfl\ter\ter.png);
+    }
+    
+    
+    
+    .viewp{
+        transition: 0.3s ease-in-out;
+        font-size: 0.8rem;
+    }
+    .viewp a{
+        text-decoration: none;
+        color: black;
+    }
+    .work:hover,
+    .work1:hover,
+    .work2:hover,
+    .work3:hover
+    {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        transition: 0.3s ease-in-out;
+    }
+    
+    .work:hover .viewp,
+    .work1:hover .viewp,
+    .work2:hover .viewp,
+    .work3:hover .viewp
+    {
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp a:hover,
+    .work1:hover .viewp a:hover,
+    .work2:hover .viewp a:hover,
+    .work3:hover .viewp a:hover
+     {
+        text-decoration: underline;
+    }
+    
+    .work h1, 
+    .work1 h1, 
+    .work2 h1, 
+    .work3 h1
+    {
+        transform: translateX(30px) translateY(-10px); 
+        color: var(--color-2);
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+    .work h6, 
+    .work1 h6,
+    .work2 h6,
+    .work3 h6
+    {
+        transform: translateX(30px) translateY(-39px);  
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    .workcontent {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 70px;
+        background-color: white;
+        transition: 0.5s ease-in-out;
+    }
+    
+    
+}
+@media (min-width: 768px) and (max-width: 1145px) {
+    .navdel{
+        height: 80px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .textini{
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 0.1;
+    }
+    .textini h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        color: var(--color-5);
+    }
+    .textini h6{
+        font-size: 1rem;
+    }
+    
+    .blog{
+        padding: 40px;
+        height: auto;
+        width: 100%;
+        background-color: var(--tt);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .works {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+    }
+    
+    .work {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\portafolio\cvmilo.png);
+        background-size: cover;
+        background-position: left;
+        transition: 0.3s ease-in-out;
+    }
+    .work1 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\cvmilo\cvmilo.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work2 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\prtfl\ter\ter.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work3 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\prtfl\ter\ter.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    
+    .viewp{
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+        opacity: 0;
+        font-size: 0.9rem;
+    }
+    .viewp a{
+        text-decoration: none;
+        color: black;
+    }
+    .work:hover,
+    .work1:hover,
+    .work2:hover,
+    .work3:hover
+    {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        transition: 0.3s ease-in-out;
+    }
+    .work:hover .workcontent,
+    .work1:hover .workcontent,
+    .work2:hover .workcontent,
+    .work3:hover .workcontent
+     {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 120px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp,
+    .work1:hover .viewp,
+    .work2:hover .viewp,
+    .work3:hover .viewp
+    {
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp a:hover,
+    .work1:hover .viewp a:hover,
+    .work2:hover .viewp a:hover,
+    .work3:hover .viewp a:hover
+     {
+        text-decoration: underline;
+    }
+    
+    .work h1, 
+    .work1 h1, 
+    .work2 h1, 
+    .work3 h1
+    {
+        transform:translateX(30px);
+        color: var(--color-2);
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    .work h6, 
+    .work1 h6,
+    .work2 h6,
+    .work3 h6
+    {
+        transform: translateY(-35px) translateX(30px);  
+        font-size: 1rem;
+    }
+    
+    .workcontent {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 100px;
+        background-color: white;
+        transition: 0.5s ease-in-out;
+    }
+}
+@media (min-width: 1146px) {
+    .navdel{
+        height: 80px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .textini{
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 0.1;
+    }
+    .textini h1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        color: var(--color-5);
+    }
+    .textini h6{
+        font-size: 1rem;
+    }
+    
+    .blog{
+        padding: 40px;
+        height: auto;
+        width: 100%;
+        background-color: var(--tt);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .works {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between; 
+        width: 100%; 
+    }
+    
+    .work {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\portafolio\cvmilo.png);
+        background-size: cover;
+        background-position: left;
+        transition: 0.3s ease-in-out;
+    }
+    .work1 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\cvmilo\cvmilo.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work2 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\prtfl\ter\ter.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work3 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\prtfl\ter\ter.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    
+    .viewp{
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+        opacity: 0;
+        font-size: 0.9rem;
+    }
+    .viewp a{
+        text-decoration: none;
+        color: black;
+    }
+    .work:hover,
+    .work1:hover,
+    .work2:hover,
+    .work3:hover
+    {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        transition: 0.3s ease-in-out;
+    }
+    .work:hover .workcontent,
+    .work1:hover .workcontent,
+    .work2:hover .workcontent,
+    .work3:hover .workcontent
+     {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 120px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp,
+    .work1:hover .viewp,
+    .work2:hover .viewp,
+    .work3:hover .viewp
+    {
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp a:hover,
+    .work1:hover .viewp a:hover,
+    .work2:hover .viewp a:hover,
+    .work3:hover .viewp a:hover
+     {
+        text-decoration: underline;
+    }
+    
+    .work h1, 
+    .work1 h1, 
+    .work2 h1, 
+    .work3 h1
+    {
+        transform:translateX(30px);
+        color: var(--color-2);
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    .work h6, 
+    .work1 h6,
+    .work2 h6,
+    .work3 h6
+    {
+        transform: translateY(-35px) translateX(30px);  
+        font-size: 1rem;
+    }
+    
+    .workcontent {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 100px;
+        background-color: white;
+        transition: 0.5s ease-in-out;
+    }
+    
+    
+}
+

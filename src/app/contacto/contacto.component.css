@@ -1,0 +1,246 @@
+@media (max-width: 1102px){
+
+    .formulario h1{
+        font-weight: bold;
+    }
+    .contact{
+        padding-top: 50px;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        justify-content: center;
+        align-items: center;
+    }
+    .title h1{
+        color: rgb(71, 71, 71);
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hi{
+        color: var(--color-5);
+    }
+    .formulario{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .formulario h1{
+        text-align: center;
+    }
+    
+    ::placeholder, #tipo_proyecto, input, textarea{
+    
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .env{
+        font-weight: bold;
+        cursor: pointer;
+        padding: 5px 40px 10px 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 5px;
+        background-color: var(--color-2);
+        border: none;
+        transition: 0.3s ease-in-out;
+    }
+    .env:hover{
+        background-color: var(--color-1);
+    }
+    
+    .np, .emailtp{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form {
+        justify-content: center;
+        align-items: center;
+        background: none; /* Quita el fondo */
+        border: none; /* Quita los bordes */
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        border: none; /* Quita los bordes de los campos de texto */
+        outline: none; /* Quita el resaltado del cuadro de entrada */
+        background-color: transparent; /* Hace que el fondo sea transparente */
+    }
+    
+    select#tipo_proyecto {
+        width: 220px;
+        border: none; /* Quita los bordes del select */
+        outline: none; /* Quita el resaltado del cuadro de entrada */
+        background-color: transparent; /* Hace que el fondo sea transparente */
+        -webkit-appearance: none; /* Quita la apariencia por defecto en Webkit (Safari/Chrome) */
+        -moz-appearance: none; /* Quita la apariencia por defecto en Mozilla Firefox */
+        appearance: none; /* Quita la apariencia por defecto en navegadores modernos */
+    }
+    
+    /* Estilo personalizado para la flecha */
+    select#tipo_proyecto::after {
+        padding-left: 5px; /* Añade un espaciado para la imagen de la flecha */
+    }
+    .places{
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .ln, .la, .le, .lm{
+    
+        transform: translateY(-21px);
+        background-color: var(--color-1);
+        height: 2px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #nombre:hover + .ln{
+        background-color: #a1d1bc;
+    }
+    
+    .lt{
+        background-color: var(--color-1);
+        height: 2px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    /* Estilo para desactivar el fondo azul de autocompletado en campos de entrada */
+    input:-webkit-autofill,
+    input:-webkit-autofill:focus {
+        -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+        background-color: transparent !important;
+        background-image: none !important;
+        color: inherit !important;
+    }
+    .botn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 1103px) {
+
+    .navdel{
+        height: 80px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .formulario h1{
+        font-weight: bold;
+    }
+    .contact{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        justify-content: center;
+        align-items: center;
+    }
+    .columns{
+        transform: translateY(-100px);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .title h1{
+        color: rgb(71, 71, 71);
+        font-family: 'Oswald', sans-serif;
+        font-size: 4.5rem;
+    }
+    .hi{
+        color: var(--color-5);
+    }
+    
+    ::placeholder, #tipo_proyecto, input, textarea{
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .env{
+        font-weight: bold;
+        cursor: pointer;
+        padding: 5px 40px 10px 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 5px;
+        background-color: var(--color-2);
+        border: none;
+        transition: 0.3s ease-in-out;
+    }
+    .env:hover{
+        background-color: var(--color-1);
+    }
+    
+    .np, .emailtp{
+        display: flex;
+    }
+    
+    form {
+        background: none; /* Quita el fondo */
+        border: none; /* Quita los bordes */
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        border: none; /* Quita los bordes de los campos de texto */
+        outline: none; /* Quita el resaltado del cuadro de entrada */
+        background-color: transparent; /* Hace que el fondo sea transparente */
+    }
+    
+    select#tipo_proyecto {
+        width: 220px;
+        border: none; /* Quita los bordes del select */
+        outline: none; /* Quita el resaltado del cuadro de entrada */
+        background-color: transparent; /* Hace que el fondo sea transparente */
+        -webkit-appearance: none; /* Quita la apariencia por defecto en Webkit (Safari/Chrome) */
+        -moz-appearance: none; /* Quita la apariencia por defecto en Mozilla Firefox */
+        appearance: none; /* Quita la apariencia por defecto en navegadores modernos */
+    }
+    
+    /* Estilo personalizado para la flecha */
+    select#tipo_proyecto::after {
+        padding-left: 5px; /* Añade un espaciado para la imagen de la flecha */
+    }
+    .places{
+        margin: 10px;
+    }
+    .ln, .la, .le, .lm{
+        transform: translateY(-21px);
+        background-color: var(--color-1);
+        height: 2px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #nombre:hover + .ln{
+        background-color: #a1d1bc;
+    }
+    
+    .lt{
+        background-color: var(--color-1);
+        height: 2px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    /* Estilo para desactivar el fondo azul de autocompletado en campos de entrada */
+    input:-webkit-autofill,
+    input:-webkit-autofill:focus {
+        -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+        background-color: transparent !important;
+        background-image: none !important;
+        color: inherit !important;
+    }
+    
+}
+

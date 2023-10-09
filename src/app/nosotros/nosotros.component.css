@@ -1,0 +1,279 @@
+@media (max-width: 767px){
+    body{
+        overflow-x: hidden;
+    }
+    .nosotros{
+        background-color: whitesmoke;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .txtin{
+        height: 400px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: var(--color-2);
+    }
+    
+    .txtin h1{
+        font-size: 2rem;
+        font-family: 'Oswald';
+        color: white;
+    
+    }
+    
+    .habh h1{
+        font-size: 4rem;
+        font-family: 'Oswald';
+        color: var(--color-2);
+        margin-top: 40px;
+        margin-left: 40px;
+    
+    }
+    
+  .hbld{
+        font-size: 1.5rem;
+        margin-left: 40px;
+        margin-bottom: 30px;
+        
+    }
+
+    .desc{
+        margin-top: 40px;
+        margin-left: 40px;
+        text-align: center;
+        width: 80%;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .icons{
+        background-color: var(--color-2);
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .icons img{
+        height: 30px; 
+        width: auto;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: 1s ease-in-out;
+    }
+    .icons img:hover{
+        transform: scale(1.2);
+    }
+    .icons h1{
+        font-size: 1rem;
+        color: var(--tt);
+    }
+    .habilidades{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .navdel{
+        height: 80px;
+        background-color: transparent;
+        width: 100%;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1595px) {
+    .nosotros{
+        padding-top: 300px;
+        background-color: whitesmoke;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 70px;
+    }
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        flex-direction: column;
+    }
+    
+    .txtin{
+        height: 400px;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-right: 20px;
+        background-color: var(--color-2);
+        margin-bottom: 100px;
+    }
+    
+    .txtin h1{
+        font-size: 2rem;
+        font-family: 'Oswald';
+        color: white;
+    
+    }
+    
+    .habh h1{
+        font-size: 4rem;
+        font-family: 'Oswald';
+        color: var(--color-2);
+    
+    }
+    .habh, .hbld{
+        margin-top: 100px;
+    }
+    
+    .desc, .hbld{
+        font-size: 1.5rem;
+    }
+
+    .icons{
+        background-color: var(--color-2);
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icons img{
+        height: 50px; 
+        width: auto;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: 1s ease-in-out;
+    }
+    .icons img:hover{
+        transform: scale(1.2);
+    }
+    .iconsh1{
+        font-size: 2rem;
+        color: var(--tt);
+    }
+    .habilidades{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .navdel{
+        height: 80px;
+        background-color: transparent;
+        width: 100%;
+    }
+}
+@media (min-width: 1596px) {
+    .nosotros{
+        background-color: whitesmoke;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container{
+        align-items: center;
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .txtin{
+        height: 400px;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: var(--color-2);
+    }
+    
+    .txtin h1{
+        font-size: 2rem;
+        font-family: 'Oswald';
+        color: white;
+    
+    }
+    
+    .habh h1{
+        font-size: 4rem;
+        font-family: 'Oswald';
+        color: var(--color-2);
+    
+    }
+    .habh, .hbld{
+        margin-top: 100px;
+    }
+    
+    .desc, .hbld{
+        font-size: 1.5rem;
+    }
+    .icons{
+        background-color: var(--color-2);
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icons img{
+        height: 50px; 
+        width: auto;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: 1s ease-in-out;
+    }
+    .icons img:hover{
+        transform: scale(1.2);
+    }
+    .icons h1{
+        font-size: 4rem;
+        color: var(--tt);
+    }
+    .habilidades{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .navdel{
+        height: 80px;
+        background-color: transparent;
+        width: 100%;
+    }
+    
+}
+

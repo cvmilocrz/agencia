@@ -1,0 +1,218 @@
+
+  .nav {
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Establece la posición fija */
+    top: 0; /* Coloca el navbar en la parte superior */
+    width: 100%; /* Ancho del navbar al 100% de la pantalla */
+    height: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .nav > .nav-header {
+    flex: 0.95;
+    padding-left: 1rem;
+  }
+  .nav > .nav-header > .nav-title {
+    text-decoration: none;
+    color: var(--color-5);
+    font-family: 'Young Serif', serif;
+    margin-left: 20%;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+
+  .nav > .nav-list {
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .nav > .nav-list > li {
+    list-style-type: none;
+  }
+  .nav > .nav-list > li a {
+    color: var(--color-txt);
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+  }
+  .nav > .nav-list > li a:hover {
+    color: var(--color-1);
+
+  }
+  .nav > #nav-check {
+      display: none;
+  }
+
+  
+  @media (max-width: 1144px) {
+
+
+    .nav > .nav-header > .nav-title {
+        margin-left: 0%;
+    }
+    
+    .nav > .nav-list {
+        margin-right: 0%;
+    }
+
+    .nav {
+      height: 50px;
+    }
+
+    .nav > .nav-btn {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.01);
+    }
+
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 25px;
+      height: 20px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid var(--color-5);
+      animation: all 1s ease-in-out;
+    }
+
+
+    .nav > .nav-list {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+      background-color: var(--tt);
+      height: 0;
+      transition: all 0.3s ease-in;
+      top: 30px;
+      left: 0;
+      overflow: hidden;
+    }
+    .nav > .nav-list > li {
+      width: 100%;
+      margin-top: 1.5rem;
+    }
+    .nav > #nav-check:checked ~ .nav-list {
+      height: calc(100vh - 50px);
+    }
+  }
+  .nav-btn {
+    cursor: pointer;
+  }
+  
+  .nav-btn .s1 {
+    transition: .5s ease-in-out;
+    transform-origin: left;
+    transform: rotate(0deg) translateX(0px) translateY(0px);
+  }
+  
+  .nav-btn .s2 {
+    transition: .3s ease-in-out;
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  
+  .nav-btn .s3 {
+    transition: .5s ease-in-out;
+    transform: rotate(0deg) translateX(0px) translateY(0px);
+    transform-origin: left;
+  }
+  
+  .nav-btn.hovered .s1 {
+    transform-origin: left;
+    transform: rotate(45deg) translateX(0px) translateY(-1px);
+  }
+  
+  .nav-btn.hovered .s2 {
+    transform: translateX(1px);
+    opacity: 0;
+  }
+  
+  .nav-btn.hovered .s3 {
+    transform: rotate(-45deg) translateX(10px) translateY(0px);
+    transform-origin: left;
+  }
+  
+
+  
+/* boton */
+
+.contact {
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    display: flex;
+    color: #fff !important;
+    border-radius: 0;
+}
+
+.contact:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .contact {
+        padding: 17px 40px;
+    }
+}
+
+.contact .btn-area {
+    display: block;
+    overflow: hidden;
+}
+
+.contact .btn-area span {
+    position: relative;
+    display: block;
+    padding: 2px 0;
+    transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    transform-origin: left center;
+}
+
+.contact .btn-area span::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 150%;
+    left: 0;
+    transform: skewY(30deg);
+    transform-origin: left center;
+    transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.contact:hover .btn-area span {
+    transform: translateY(-150%) skewY(7deg);
+}
+
+.contact:hover .btn-area span::after {
+    transform: skewY(-7deg);
+}
+
+.contact:visited .btn-area span {
+    transform: translateY(-150%) skewY(7deg);
+}
+
+.contact:visited .btn-area span::after {
+    transform: skewY(-7deg);
+}
+
+.contact:hover {
+    background: var(--color-1);
+}
+
+.contact {
+  width: 90px;
+    padding: 15px 30px ;
+    border-radius: 40px;
+    background: var(--color-5);
+    color: #fff;
+    transition: 1s;
+}

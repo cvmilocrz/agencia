@@ -1,0 +1,211 @@
+@media (max-width: 1145px){
+    .footer{
+        padding-top: 80px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-5);
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+    .logo{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Young Serif', serif;
+        display: flex;
+        font-size: 4rem;
+        align-items: center;
+        transform: translateY(-20px);
+    }
+    .contenedor{
+        margin-left: 20%;
+        margin-right: 20%;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: top;
+        margin: 10px;
+        line-height: 0.1;
+    }
+    
+    h6{
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+    
+    h1{
+        color: whitesmoke;
+        font-size: 1.3rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    
+    .material-symbols-outlined {
+    
+        transform: translateX(20px);
+        font-size: 2rem;
+        cursor: pointer;
+        color: whitesmoke;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    
+      .txtr{
+        cursor: pointer;
+        transform: translateY(-25px);
+      }
+    
+    
+}
+@media (min-width: 1146px) and (max-width: 1918px) {
+    .footer{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-5);
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+    .logo{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Young Serif', serif;
+        display: flex;
+        font-size: 4rem;
+        align-items: center;
+        transform: translateY(-20px);
+    }
+    .all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor{
+        gap: 20px;
+        white-space: nowrap;
+        margin-left: 20%;
+        margin-right: 20%;
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: top;
+        margin: 10px;
+        line-height: 0.1;
+    }
+    
+    h6{
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+    
+    h1{
+        color: whitesmoke;
+        font-size: 1.3rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    
+    .material-symbols-outlined {
+    
+        transform: translateX(20px);
+        font-size: 2rem;
+        cursor: pointer;
+        color: whitesmoke;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    
+      .txtr{
+        cursor: pointer;
+        transform: translateY(-25px);
+      }
+}
+@media (min-width: 1919px) {
+    .footer{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-5);
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+    .all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Young Serif', serif;
+        display: flex;
+        font-size: 4rem;
+        align-items: center;
+        transform: translateY(-20px);
+    }
+    .contenedor{
+        margin-left: 20%;
+        margin-right: 20%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: top;
+        margin: 10px;
+        line-height: 0.1;
+    }
+    
+    h6{
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+    
+    h1{
+        color: whitesmoke;
+        font-size: 1.3rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    
+    .material-symbols-outlined {
+    
+        transform: translateX(20px);
+        font-size: 2rem;
+        cursor: pointer;
+        color: whitesmoke;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    
+      .txtr{
+        cursor: pointer;
+        transform: translateY(-25px);
+      }
+    
+    
+}
+

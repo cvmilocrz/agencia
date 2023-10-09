@@ -1,0 +1,52 @@
+<app-navbar></app-navbar>
+
+<section class="navdel"></section>
+
+<section class="tittle">
+    <div class="tth1">
+        <h1>
+            Diseñamos para ayudar a nuestros clientes a construir <br>
+            mejores <span class="a">sitios web </span> y ofrecer experiencias de usuario <br>
+             (UX/UI) superiores para sus <span class="a">empresas.</span>
+        </h1>
+    </div>
+    <div class="ttc">
+        <div class="arrow">
+            <h6>Ver portafolio</h6>
+            <span class="material-symbols-outlined" (click)="Scrollini()">
+                arrow_downward
+            </span>
+        </div>
+    </div>
+</section>
+
+<section class="seccion3" id="scrollto">
+    <div class="works">
+      <div class="row" *ngFor="let proyecto of proyectos | paginate: { itemsPerPage: itemsPerPage, currentPage: page }">
+        <div [ngClass]="proyecto.cssClass">
+          <div class="workcontent">
+            <h1>{{ proyecto.nombre }}</h1>
+            <h6>{{ proyecto.tecnologias }}<br>
+              <span class="viewp">
+                <a [href]="proyecto.url" target="_blank">Ver proyecto</a>
+              </span>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="my-pagination" (click)="scrollToTop()">
+      <pagination-controls (pageChange)="page = $event"
+      previousLabel="ANTERIOR"
+      nextLabel="SIGUIENTE"
+      >
+      </pagination-controls>
+    </div>
+
+  </section>
+
+
+
+<app-contrapido></app-contrapido>
+<app-footer></app-footer>

@@ -1,0 +1,662 @@
+@media (max-width: 767px){
+
+    .seccion3 {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: top;
+        align-items: center;
+    }
+    
+    
+    .works {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between; 
+        width: 100%; 
+    }
+    
+    .work,
+    .work1,
+    .work2
+    {
+        position: relative; 
+        height: 300px;
+        width: 300px;
+        margin: 10px;
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work3,
+    .work4{
+        position: relative; 
+        height: 300px;
+        width: 300px;
+        margin: 10px;
+        background-size: cover;
+        background-position: left;
+        transition: 0.3s ease-in-out;
+    }
+      
+    .work {
+        background-image: url(src\assets\prtfl\login\login-xmp.png);
+    }
+    .work1 {
+        background-image: url(src\assets\prtfl\ter\ter.png);
+    }
+    .work2 {
+        background-image: url(src\assets\blog\tienda\tienda.png);
+    }
+    .work3 {
+        background-image: url(src\assets\blog\portafolio\cvmilo.png);
+    }
+    .work4 {
+        background-image: url(src\assets\blog\after-effects\After.jpg);
+    }
+    
+    
+    
+    .viewp{
+        transition: 0.3s ease-in-out;
+        opacity: 1;
+        font-size: 0.8rem;
+    }
+    .viewp a{
+        text-decoration: none;
+        color: black;
+    }
+    .work:hover,
+    .work1:hover,
+    .work2:hover,
+    .work3:hover,
+    .work4:hover
+
+    {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .work:hover .viewp,
+    .work1:hover .viewp,
+    .work2:hover .viewp,
+    .work3:hover .viewp,
+    .work4:hover .viewp
+    {
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp a:hover,
+    .work1:hover .viewp a:hover,
+    .work2:hover .viewp a:hover,
+    .work3:hover .viewp a:hover,
+    .work4:hover .viewp a:hover
+     {
+        text-decoration: underline;
+    }
+    
+    .work h1, 
+    .work1 h1, 
+    .work2 h1, 
+    .work3 h1,
+    .work4 h1
+    {
+        transform: translateX(30px) translateY(-10px); 
+        color: var(--color-2);
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+    .work h6, 
+    .work1 h6,
+    .work2 h6,
+    .work3 h6,
+    .work4 h6
+    {
+        transform: translateX(30px) translateY(-39px);  
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    .workcontent {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 70px;
+        background-color: var(--tt);
+        transition: 0.5s ease-in-out;
+    }
+    .navdel{
+        height: 50px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .tittle{
+        height: 25%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        background-color: var(--color-1);
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    
+    .tth1{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: auto;
+        color: var(--tt);
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    
+    }
+    .ttc{
+        line-height: 0.4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .arrow{
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .arrow h6{
+        color: whitesmoke;
+        font-size: 1rem;
+        margin: 15px;
+        cursor: pointer;
+    }
+    .a{
+        color: var(--color-5);
+    }
+    
+    .material-symbols-outlined {
+        text-align: center;
+        cursor: pointer;
+        color: whitesmoke;
+        font-size: 2rem;
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    
+    .my-pagination{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+    .my-pagination ::ng-deep .ngx-pagination .current {
+        background: var(--color-2);
+      }
+      
+}
+@media (min-width: 768px) and (max-width: 1145px) {
+    .seccion3 {
+        padding: 40px;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: top;
+        align-items: center;
+    }
+    
+    
+    .works {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+    }
+    
+      
+    .work {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\prtfl\login\login-xmp.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work1 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\prtfl\ter\ter.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work2 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\tienda\tienda.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work3 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\portafolio\cvmilo.png);
+        background-size: cover;
+        background-position: left;
+        transition: 0.3s ease-in-out;
+    }
+    .work4 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\after-effects\After.jpg);
+        background-size: cover;
+        background-position: left;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    
+    .viewp{
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+        opacity: 0;
+        font-size: 0.9rem;
+    }
+    .viewp a{
+        text-decoration: none;
+        color: black;
+    }
+    .work:hover,
+    .work1:hover,
+    .work2:hover,
+    .work3:hover,
+    .work4:hover
+    {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        transition: 0.3s ease-in-out;
+    }
+    .work:hover .workcontent,
+    .work1:hover .workcontent,
+    .work2:hover .workcontent,
+    .work3:hover .workcontent,
+    .work4:hover .workcontent
+     {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 120px;
+        background-color: var(--tt);
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp,
+    .work1:hover .viewp,
+    .work2:hover .viewp,
+    .work3:hover .viewp,
+    .work4:hover .viewp
+    {
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp a:hover,
+    .work1:hover .viewp a:hover,
+    .work2:hover .viewp a:hover,
+    .work3:hover .viewp a:hover,
+    .work4:hover .viewp a:hover
+     {
+        text-decoration: underline;
+    }
+    
+    .work h1, 
+    .work1 h1, 
+    .work2 h1, 
+    .work3 h1,
+    .work4 h1
+    {
+        transform:translateX(30px);
+        color: var(--color-2);
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    .work h6, 
+    .work1 h6,
+    .work2 h6,
+    .work3 h6,
+    .work4 h6
+    {
+        transform: translateY(-35px) translateX(30px);  
+        font-size: 1rem;
+    }
+    
+    .workcontent {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 100px;
+        background-color: var(--tt);
+        transition: 0.5s ease-in-out;
+    }
+    .navdel{
+        height: 80px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .tittle{
+        height: 25%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        flex-direction: column;
+        background-color: var(--color-1);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tth1{
+        white-space: nowrap;
+        margin-left: 20%;
+        margin-right: 20%;
+        width: auto;
+        color: var(--tt);
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    .arrow{
+        visibility: hidden;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .arrow h6{
+        color: whitesmoke;
+        font-size: 2rem;
+        margin: 15px;
+        cursor: pointer;
+    }
+    .a{
+        color: var(--color-5);
+    }
+    
+    .material-symbols-outlined {
+        cursor: pointer;
+        color: whitesmoke;
+        font-size: 5rem;
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    
+    .my-pagination{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+    .my-pagination ::ng-deep .ngx-pagination .current {
+        background: var(--color-2);
+      }
+}
+@media (min-width: 1146px) {
+    .seccion3 {
+        padding: 40px;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: top;
+        align-items: center;
+    }
+    
+    
+    .works {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between; 
+        width: 100%; 
+    }
+    
+      
+    .work {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\prtfl\login\login-xmp.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work1 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\prtfl\ter\ter.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work2 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\tienda\tienda.png);
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+    }
+    .work3 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\portafolio\cvmilo.png);
+        background-size: cover;
+        background-position: left;
+        transition: 0.3s ease-in-out;
+    }
+    .work4 {
+        position: relative; 
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        background-image: url(src\assets\blog\after-effects\After.jpg);
+        background-size: cover;
+        background-position: left;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    
+    .viewp{
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+        opacity: 0;
+        font-size: 0.9rem;
+    }
+    .viewp a{
+        text-decoration: none;
+        color: black;
+    }
+    .work:hover,
+    .work1:hover,
+    .work2:hover,
+    .work3:hover,
+    .work4:hover
+    {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        transition: 0.3s ease-in-out;
+    }
+    .work:hover .workcontent,
+    .work1:hover .workcontent,
+    .work2:hover .workcontent,
+    .work3:hover .workcontent,
+    .work4:hover .workcontent
+     {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 120px;
+        background-color: var(--tt);
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp,
+    .work1:hover .viewp,
+    .work2:hover .viewp,
+    .work3:hover .viewp,
+    .work4:hover .viewp
+    {
+        visibility: visible;
+        opacity: 1;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .work:hover .viewp a:hover,
+    .work1:hover .viewp a:hover,
+    .work2:hover .viewp a:hover,
+    .work3:hover .viewp a:hover,
+    .work4:hover .viewp a:hover
+     {
+        text-decoration: underline;
+    }
+    
+    .work h1, 
+    .work1 h1, 
+    .work2 h1, 
+    .work3 h1,
+    .work4 h1
+    {
+        transform:translateX(30px);
+        color: var(--color-2);
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    .work h6, 
+    .work1 h6,
+    .work2 h6,
+    .work3 h6,
+    .work4 h6
+    {
+        transform: translateY(-35px) translateX(30px);  
+        font-size: 1rem;
+    }
+    
+    .workcontent {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        height: 100px;
+        background-color: var(--tt);
+        transition: 0.5s ease-in-out;
+    }
+    .navdel{
+        height: 80px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .tittle{
+        height: 25%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        flex-direction: column;
+        background-color: var(--color-1);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tth1{
+        white-space: nowrap;
+        margin-left: 20%;
+        margin-right: 20%;
+        width: auto;
+        color: var(--tt);
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    .arrow{
+        visibility: hidden;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .arrow h6{
+        color: whitesmoke;
+        font-size: 2rem;
+        margin: 15px;
+        cursor: pointer;
+    }
+    .a{
+        color: var(--color-5);
+    }
+    
+    .material-symbols-outlined {
+        cursor: pointer;
+        color: whitesmoke;
+        font-size: 5rem;
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    
+    .my-pagination{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+    .my-pagination ::ng-deep .ngx-pagination .current {
+        background: var(--color-2);
+      }
+      
+}
+

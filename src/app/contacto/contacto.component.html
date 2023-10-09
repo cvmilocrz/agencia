@@ -1,0 +1,61 @@
+<app-navbar></app-navbar>
+<section class="navdel"></section>
+
+<section class="contact">
+    <div class="columns">
+        <div class="title">
+            <h1>No seas timido,<br>Di
+            <span class="hi">
+                Hola!
+            </span></h1>
+        </div>
+        <div class="formulario">
+            <h1>CUENTANOS ACERCA DE TU PROYECTO</h1>
+
+            <form action="https://formsubmit.co/camiloc9203@gmail.com" method="POST" autocomplete="off">
+                <div class="np">
+                    <div class="places">
+                        <input type="text" id="nombre" name="nombre" placeholder="nombre" required><br><br>
+                        <div class="ln"></div>
+                    </div>
+                    <div class="places">
+                        <input type="text" id="apellido" name="apellido" placeholder="apellido" required><br><br>
+                        <div class="la"></div>
+                    </div>
+
+                </div>
+                
+                <div class="emailtp">
+                    <div class="places">
+                        <input type="email" id="email" name="email" placeholder="email" required><br><br>
+                        <div class="le"></div>
+                    </div>
+                    <div class="places">
+                        <select id="tipo_proyecto" name="tipo_proyecto" required>  
+                            <option value="" disabled selected>Tipo de Proyecto 
+
+                            </option>
+                            <option value="Diseño gráfico">Diseño gráfico</option>
+                            <option value="Desarrollo WEB">Desarrollo WEB</option>
+                        </select>
+                        <div class="lt"></div>
+                    </div>
+                </div>
+                <div class="places">
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="44" placeholder="Describe del proyecto"></textarea><br><br>                
+                    <div class="lm"></div>
+                </div>
+                <div class="botn">
+                    <input class="env" type="submit" value="Enviar">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://confirmacion-proyecto.netlify.app">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+<app-footer></app-footer>

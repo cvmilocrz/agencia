@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    user-select: none;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+:root {
+    --color-1: #deb9b9; /* Color primario */
+    --color-2: #fd9993; /* Color secundario */
+    --color-3: #ffe1dd; /* Color secundario */
+    --color-4: #f9edf1; /* Color secundario */
+    --color-5: #eb6a67; /* Color secundario */
+    --tt: whitesmoke;
+}
+

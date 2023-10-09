@@ -1,0 +1,223 @@
+<app-navbar></app-navbar>
+<section class="seccion1">
+    <!-- Contenido de la primera sección -->
+    <div class="contenido">
+        <div class="texto">
+            <h6>TRABAJAMOS DURO & NOS DIVERTIMOS MUCHO</h6>
+            <h1>SOMOS UN ESTUDIO DE DISEÑO <br>QUE CREE EN LAS GRANDES IDEAS</h1>
+        </div>
+        <div class="botones">
+
+            <a class="btna" routerLink="/portafolio" (click)="scrollToTop()">
+                <span class="btn-area">
+                  <span data-text="PORTAFOLIO">
+                    PORTAFOLIO
+                  </span>
+                </span>
+              </a>
+              <a class="btnb" routerLink="/contacto" (click)="scrollToTop()">
+                <span class="btn-area">
+                  <span data-text="CONTACTO">
+                    CONTACTO
+                  </span>
+                </span>
+              </a>
+        </div>
+        <a href="#s2"></a>
+
+        <span class="material-symbols-outlined" (click)="Scrollini()">
+            arrow_downward
+        </span>
+    </div>
+</section>
+
+
+<section class="seccion2" id="s2">
+    <!-- Contenido de la segunda sección -->
+    <div class="contador">
+        <h6 class="hechos">SE DEMUESTRA CON LOS HECHOS</h6>
+    </div>
+
+    <div class="content">
+        <div class="cont">
+            <h6>Clientes Felices</h6>
+            <h1>253+</h1>
+        </div>
+        <div class="cont">
+            <h6>Proyectos Completados</h6>
+            <h1>111+</h1>
+        </div>
+        <div class="cont">
+            <h6>Llamadas atendidas</h6>
+            <h1> 740+</h1>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="seccion3" id="scrollto">
+    <div class="secini">
+        <h1>NUESTROS TRABAJOS RECIENTES</h1>
+        <h6>Creando experiencias y buscando hacer lo complejo claro y hermoso</h6>
+    </div>
+
+    <div class="works">
+        <div class="row">
+            <div class="work">
+                <div class="workcontent">
+                    <h1>Login Simple</h1>
+                    <h6>HTML, CSS & JS <br> <span class="viewp">
+                        <a href="https://login-cvmilo.netlify.app" target="_blank">  ver proyecto</a>
+                    </span></h6>
+                </div>
+            </div>
+            <div class="work1">
+                <div class="workcontent">
+                    <h1>Tres en raya</h1>
+                    <h6>HTML, CSS & JS <br>  <span class="viewp">
+                        <a href="https://tres-en-raya-cvmilo.netlify.app" target="_blank"> ver proyecto</a>
+                    </span></h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="work2">
+                <div class="workcontent">
+                    <h1>Tienda Simple</h1>
+                    <h6>Angular <br>  <span class="viewp">
+                        <a href="https://tienda-cvmilo.netlify.app" target="_blank"> ver proyecto</a>
+                    </span></h6>
+                </div>
+            </div>
+            <div class="work3">
+                <div class="workcontent">
+                    <h1>Mi portafolio principal</h1>
+                    <h6>HTML, CSS & JS <br>  <span class="viewp">
+                        <a href="https://cvmilo.netlify.app" target="_blank"> ver proyecto</a>
+                    </span></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="more">
+            <h6 class="moretxt" routerLink="/portafolio" (click)="scrollToTop()">ver mas trabajos</h6>
+            <div class="line"></div>
+    </div>
+</section>
+
+<section class="section4">
+    <div class="res">
+        <h1>OPINIÓN DE PERSONAS REALES</h1>
+        <h6>Lo que los clientes dicen acerca de nuestros proyectos</h6>
+    </div>
+
+    <div class="persons">
+        <div class="person-row">
+            <div class="person1">
+                <div class="overlay"></div>
+                <div class="prn2">
+                    <img src="assets/persons/juliasmith.jpg" alt="">
+                    <div class="txtprn">
+                        <h6>Julia Smith <br> 
+                        <span>CEO, Empresa XYZ</span></h6>
+                    </div>
+                </div>
+                <p>
+                    Su enfoque en la usabilidad y la estética ha mejorado 
+                    significativamente la experiencia de usuario en nuestro 
+                    sitio web. Estamos muy satisfechos con su trabajo y su 
+                    capacidad para cumplir con los plazos.
+                </p>
+            </div>
+
+            <div class="person2">
+                <div class="overlay"></div>
+                <div class="prn2">
+                <img src="assets/persons/carlos.jpg" alt="">
+                <div class="txtprn">
+                    <h6>Carlos Rodriguez<br> 
+                    <span>Gerente, Empresa XYZ</span></h6>
+                </div>
+                </div>                
+                <p>
+                    Su capacidad para entender y traducir nuestras ideas 
+                    en diseños funcionales ha sido impresionante. Siempre 
+                    cumple con los plazos y se comunica de manera efectiva 
+                    en cada etapa del proyecto.
+                </p>
+            </div>
+            <div class="person3">
+                <div class="overlay"></div>
+                <div class="prn2">                
+                    <img src="assets/persons/maria.jpg" alt="">
+                    <div class="txtprn">
+                        <h6>María López <br> 
+                        <span>Directora, Empresa XYZ</span></h6>
+                    </div>
+                </div>
+
+                <p>
+                    Su enfoque en la optimización de la experiencia del 
+                    usuario ha mejorado nuestras métricas de conversión de 
+                    manera significativa. Estamos ansiosos por continuar
+                     trabajando con él en futuros proyectos.
+                </p>
+            </div>
+            <div class="person4">
+                <div class="overlay"></div>
+                <div class="prn2">
+                    <img src="assets/persons/alejo.jpg" alt="">
+                    <div class="txtprn">
+                        <h6>Alejandro Pérez<br> 
+                        <span>Director, Empresa XYZ</span></h6>
+                    </div>
+                </div>
+                <p>
+                    Su habilidad para crear diseños atractivos y funcionales
+                    ha mejorado nuestra presencia en línea y ha atraído a 
+                    más usuarios. Es un profesional confiable y creativo en
+                    el mundo del diseño web.
+                </p>
+            </div>
+            <div class="person5">
+                <div class="overlay"></div>
+                <div class="prn2">
+                    <img src="assets/persons/laura.jpg" alt="">
+                    <div class="txtprn">
+                        <h6>Laura García<br> 
+                        <span>Marketing, Empresa XYZ</span></h6>
+                    </div>
+                </div>
+                <p>
+                    Sus diseños han ayudado a nuestra empresa a destacar 
+                    en un mercado competitivo. Su atención al detalle y su 
+                    capacidad para comprender nuestras necesidades han sido 
+                    impresionantes.
+                </p>
+            </div>
+            <div class="person6">
+                <div class="overlay"></div>
+                <div class="prn2">
+                    <img src="assets/persons/diego.jpg" alt="">
+                    <div class="txtprn">
+                        <h6>Diego Torres <br> 
+                        <span>CEO, Empresa XYZ</span></h6>
+                    </div>
+                </div>
+                <p>
+                    Ha trabajado estrechamente con nuestro equipo de desarrollo 
+                    para crear interfaces de usuario intuitivas y atractivas. Estamos 
+                    muy contentos con los resultados que ha entregado.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="personft">
+        <p>personas creadas con: <br> <a href="https://this-person-does-not-exist.com" target="_blank">this-person-does-not-exist.com</a></p>
+    </div>
+</section>
+<app-contrapido></app-contrapido>
+<app-footer></app-footer>

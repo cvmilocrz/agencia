@@ -1,0 +1,95 @@
+<app-navbar></app-navbar>
+<section class="navdel"></section>
+
+<section class="principal">
+    <div class="tittle">
+        <h6>AGOSTO 19, 2023</h6>
+        <h1>Tres en Raya</h1>
+    </div>
+    <div class="content">
+
+    <p>
+      <img src="assets/blog/ter/2.png" alt="" class="code" > <br><br><br>
+
+      En mi travesía por la internet, me encontré con un desafío que ofrecía un conjunto completo de recursos, 
+      que iban desde íconos hasta directrices sobre la lógica a implementar en un sitio web. 
+      Decidí realizar este desafío y asumirlo como un proyecto propio. <br><br>
+
+      Este reto me permitió poner en práctica los principios de la semántica de HTML, las destrezas de diseño, 
+      Así como mi habilidad para desarrollar lógica mediante JavaScript. <br><br>
+
+      <img src="assets/blog/ter/1.png" alt="" class="code" >
+
+      <a href="https://www.frontendmentor.io/challenges/tic-tac-toe-game-Re7ZF_E2v" target="_blank">Enlace al Reto de Frontend Mentor</a><br><br>
+
+      En una fase inicial, opté por desarrollar la estructura y el estilo de la página web. 
+      En esta etapa, me enfoqué en garantizar que la página principal fuera completamente responsive, 
+      asegurándome de que se adaptara eficazmente a diversos dispositivos y tamaños de pantalla. 
+      Además, personalicé la paleta de colores según mis preferencias, empleando una combinación 
+      de tonos morados y amarillos para lograr el diseño visual deseado. <br><br>
+
+      una vez hecho esto, pasé a la logica en JavaScript. <br><br>
+      
+      A continuación, te explicaré cómo funciona el código paso a paso:<br><br>
+      
+      Este código implementa las opciones para un jugador contra la CPU o dos jugadores, realiza un seguimiento de 
+      la puntuación y permite reiniciar o salir del juego. La lógica del juego se basa en verificar si un jugador ha ganado al completar un tres en raya en fila,
+      columna o diagonal, o si hay un empate si todas las casillas están llenas sin un ganador. 
+      Además, se utilizan datos de almacenamiento local para mantener el
+      estado del juego entre sesiones.<br><br>
+
+      <img src="assets/blog/ter/3.png" alt="" class="code"><br><br><br>
+
+      El código comienza seleccionando elementos del Document Object Model (DOM) utilizando la función 
+      document.querySelector y document.querySelectorAll. Estos elementos representan diferentes partes de la interfaz de usuario del juego, 
+      como el tablero, botones, modales y marcadores de puntuación.<br><br>
+
+      Almacenamiento local: El código verifica si hay datos almacenados en el almacenamiento local del navegador para restaurar el estado del 
+      juego si el jugador ha jugado antes. Los datos almacenados incluyen el modo de juego (un jugador o dos jugadores), los nombres de los jugadores, 
+      la puntuación y el estado del juego (ganar, empate, etc.). <br><br>
+
+      Manejo de eventos: Se asignan manejadores de eventos a elementos HTML como botones y tarjetas del juego. Estos manejadores de eventos responden a 
+      las acciones del usuario, como hacer clic en una tarjeta del juego, reiniciar el juego o salir del juego. <br><br>
+
+      Lógica del juego: La lógica del juego se implementa principalmente en la función "ComprobarGanador", que verifica si un jugador ha ganado la partida. 
+      Se verifica si hay tres fichas en línea en una fila, columna o diagonal. Además, se comprueba si hay un empate si todas las casillas están 
+      llenas sin un ganador. <br><br>
+
+      <img src="assets/blog/ter/4.png" alt="" class="code"><br><br><br>
+
+      Jugada de la CPU: Si el juego se está jugando en modo un jugador contra la CPU, se llama a la función turnoCPU para que la CPU realice una jugada 
+      automáticamente después de que el jugador haya realizado su movimiento. <br><br>
+      <img src="assets/blog/ter/5.png" alt="" class="code"><br><br><br>
+
+
+      Actualización de la interfaz de usuario y almacenamiento local: El código actualiza la interfaz de usuario para reflejar el estado actual del juego, 
+      como mostrar quién tiene el turno, la puntuación y si hay un ganador o un empate. Además, los datos relevantes se almacenan en el almacenamiento local 
+      para que puedan ser restaurados en futuras sesiones del juego. <br><br>
+
+
+    </p>
+    <p style="font-style: italic;">
+      "Cada desafío en la web es una oportunidad para aplicar habilidades y creatividad en código. 
+      Este proyecto, surgido de un reto en línea, me permitió concretar principios de HTML, destrezas 
+      de diseño y habilidad para desarrollar lógica en JavaScript." <br>
+      - Camilo Cruz
+  </p>
+</div>
+<div class="botones">
+
+    <a class="btnb" routerLink="/cvmilo">
+        <span class="material-symbols-outlined">
+            arrow_back
+        </span>
+        <span class="btn-area">
+          <span data-text="Pagina Cvmilo" >
+            ANTERIOR PROYECTO
+          </span>
+        </span>
+
+      </a>
+</div>
+</section>
+
+<app-contrapido></app-contrapido>
+<app-footer></app-footer>

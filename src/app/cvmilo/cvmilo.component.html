@@ -1,0 +1,102 @@
+<app-navbar></app-navbar>
+<section class="navdel"></section>
+
+<section class="principal">
+    <div class="tittle">
+        <h6>septiembre 24, 2023</h6>
+        <h1>Pagina Cvmilo</h1>
+    </div>
+    <div class="content">
+    <p>
+      <img src="assets\blog\cvmilo\cvmilofull.png" alt="" class="code"> <br><br><br>
+      Para esta página, opté por un enfoque más avanzado en lugar de una simple landing page, 
+      eligiendo crear varias páginas, cada una de las cuales se dedicaría a presentar contenido diferente.
+      <br><br><br>
+      En la fase inicial, se procedió a crear el componente de la barra de navegación (Navbar). 
+      Se incorporaron los elementos diseñados previamente en el mockup. Dado que se trataba de varios elementos, 
+      se implementó una funcionalidad que, al alcanzar cierta resolución de pantalla, ocultaría las opciones del
+      Navbar y en su lugar mostraría un menú de hamburguesa. Este último se diseñó mediante el uso de media queries
+      y aplicando la propiedad "visibility: hidden".
+      </p>
+        <div class="img2">
+          <img src="assets\blog\cvmilo\mock.png" alt="" class="code2"> <br><br><br>
+        </div>
+      <p>
+        Inicialmente, se seleccionó una paleta de colores compuesta por verde menta y azul cían para el sitio web. 
+        Sin embargo, esta elección no resultó satisfactoria, ya que a simple vista, los colores carecían de armonía entre sí.
+        En respuesta a esta inquietud, y gracias a la sugerencia de mi novia, se optó por cambiar la paleta de colores a tonos pastel, 
+        con el color salmón como tono principal. <br><br><br>
+      </p>
+      <div class="img2">
+        <img src="assets\blog\cvmilo\iniciobckgrnd.png" alt="" class="code3"> <br><br><br>
+      </div>
+      <p>
+        Dado que se estaba utilizando variables que contenían las 5 variaciones de colores del sitio, realizar todos los cambios necesarios 
+        no supuso ningún problema. <br> <br>
+        Dado el enfoque de la página como una agencia de diseño, se incorporaron secciones estadísticas y áreas de reseñas de clientes 
+        para destacar el potencial de la empresa. Además, se diseñó una sección dedicada a la presentación de proyectos anteriores, junto 
+        con un enlace que redirige a un portafolio para explorar más trabajos. <br> <br>
+        Para concluir, se implementaron dos secciones de pie de página (Footer). Una de ellas se centró en proporcionar un acceso rápido a los 
+        datos de contacto, que conducen a un formulario para enviar mensajes relacionados con proyectos. Este formulario se encuentra conectado 
+        a una API que envía los correos electrónicos a mi dirección de correo electrónico designada. <br> <br>
+        En la sección "Nosotros", se proporciona una breve descripción sobre mí, 
+        destacando mi estatus como estudiante en proceso de graduación. 
+        Se menciona que el paso cruciales para completar el proceso de graduación es 
+        la presentación de las pruebas ICFES, programadas para principios de septiembre. 
+        Además, se exponen algunas de mis habilidades clave y las herramientas que empleo en el desarrollo web. <br><br>
+        <img src="assets\blog\cvmilo\nosotros.png" alt="" class="code"> <br><br><br>
+
+        En la página de Portafolio, se incluyeron los proyectos principales que forman parte de mi portafolio principal. 
+        Además, se incorporaron algunos videos que produje para un evento en La Dorada, Caldas. Estos videos abarcaron trabajos 
+        realizados tanto para la alcaldía como para los patrocinadores del evento, y también se incluyeron animaciones que fueron 
+        creadas utilizando After Effects. <br><br>
+
+        <img src="assets\blog\cvmilo\1.png" alt="" class="code5"> <br><br><br>
+
+
+        Por último, tenemos la sección del blog, donde se pueden leer artículos relacionados con el desarrollo de los proyectos. 
+        Esta sección fue creada con el propósito de llevar un seguimiento detallado de los proyectos que resultan de interés y relevancia.
+
+      </p>
+      <p style="font-style: italic;">
+        "La creatividad encuentra su forma en cada línea de código.
+        Un viaje proyecto que me demuestra que el arte y la tecnología son socios inseparables. <br>
+      El desarrollo web un lienzo en blanco esperando a ser programado"
+        
+        - Camilo Cruz
+    </p>
+
+
+</div>
+
+<div class="botones">
+
+  <a class="btnb" routerLink="/portafolioprincipal" (click)="scrollToTop()">
+      <span class="material-symbols-outlined">
+          arrow_back
+      </span>
+      <span class="btn-area">
+        <span data-text="Portafolio Principal" >
+          ANTERIOR PROYECTO
+        </span>
+      </span>
+
+    </a>
+
+    <a class="btnb" routerLink="/tresenraya" (click)="scrollToTop()">
+      <span class="btn-area">
+        <span data-text="Tres en Raya" >
+          SIGUIENTE PROYECTO 
+        </span>
+      </span>
+      <span class="material-symbols-outlined">
+          arrow_forward
+      </span>
+    </a>
+</div>
+
+</section>
+
+
+<app-contrapido></app-contrapido>
+<app-footer></app-footer>

@@ -1,0 +1,489 @@
+@media (max-width: 767px){
+    a{
+        text-decoration: none;
+    }
+    .contr{
+        background-image: url(src\assets\resources\backgroundtexture.webp);
+        height: auto;
+        width: 100%;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .botones {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 95%;
+    }
+    .btna {
+        margin: 20px;
+        font-family: 'Oswald', sans-serif;
+        border: none;
+        color: #fff !important;
+        padding: 20px 45px;
+        border-radius: 0;
+    }
+    
+    .btna:focus {
+        box-shadow: none;
+    }
+    
+    
+    .btna .btn-area {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .btna .btn-area span {
+        position: relative;
+        display: block;
+        padding: 2px 0;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+        transform-origin: left center;
+    }
+    
+    .btna .btn-area span::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 150%;
+        left: 0;
+        transform: skewY(30deg);
+        transform-origin: left center;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    .btna:hover .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btna:hover .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btna:visited .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btna:visited .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btna:hover {
+        background: var(--color-5);
+    }
+    
+    .btna {
+        white-space: nowrap;
+        font-size: 0.8rem;
+        padding: 15px 40px !important;
+        background: var(--color-5);
+        color: #fff;
+    }
+    
+    
+    /*boton 2*/
+    .btnb {
+        font-size: 0.8rem;
+        margin: 35px;
+        font-family: 'Oswald', sans-serif;
+        border: none;
+        color: #fff !important;
+        padding: 20px 45px;
+        border-radius: 0;
+    }
+    
+    .btnb:focus {
+        box-shadow: none;
+    }
+    
+    
+    .btnb .btn-area {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .btnb .btn-area span {
+        position: relative;
+        display: block;
+        padding: 2px 0;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+        transform-origin: left center;
+    }
+    
+    .btnb .btn-area span::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 150%;
+        left: 0;
+        transform: skewY(30deg);
+        transform-origin: left center;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    .btnb:hover .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btnb:hover .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btnb:visited .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btnb:visited .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btnb:hover {
+        background: var(--color-1);
+    }
+    
+    .btnb {
+        white-space: nowrap;
+        padding: 15px 20px !important;
+        background: var(--color-1);
+        color: #fff;
+    }
+    h1{
+        font-size: 2rem;
+        color: var(--color-5);
+        font-family: 'Oswald', sans-serif;
+    }
+}
+@media (min-width: 768px) and (max-width: 1919px) {
+    a{
+        text-decoration: none;
+    }
+    .contr{
+        background-image: url(src\assets\resources\backgroundtexture.webp);
+        height: 45%;
+        width: 100%;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .botones {
+        transform: translateY(-80px);
+        display: flex;
+        align-items: center; 
+        margin-top: 20px; 
+    }
+    .btna {
+        margin: 20px;
+        font-family: 'Oswald', sans-serif;
+        border: none;
+        color: #fff !important;
+        padding: 20px 45px;
+        border-radius: 0;
+    }
+    
+    .btna:focus {
+        box-shadow: none;
+    }
+    
+    @media (max-width: 991px) {
+        .btna {
+            padding: 17px 40px;
+        }
+    }
+    
+    .btna .btn-area {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .btna .btn-area span {
+        position: relative;
+        display: block;
+        padding: 2px 0;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+        transform-origin: left center;
+    }
+    
+    .btna .btn-area span::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 150%;
+        left: 0;
+        transform: skewY(30deg);
+        transform-origin: left center;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    .btna:hover .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btna:hover .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btna:visited .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btna:visited .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btna:hover {
+        background: var(--color-5);
+    }
+    
+    .btna {
+        padding: 15px 40px !important;
+        background: var(--color-5);
+        color: #fff;
+    }
+    
+    
+    /*boton 2*/
+    .btnb {
+        margin: 35px;
+        font-family: 'Oswald', sans-serif;
+        border: none;
+        color: #fff !important;
+        padding: 20px 45px;
+        border-radius: 0;
+    }
+    
+    .btnb:focus {
+        box-shadow: none;
+    }
+    
+    @media (max-width: 991px) {
+        .btnb {
+            padding: 17px 40px;
+        }
+    }
+    
+    .btnb .btn-area {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .btnb .btn-area span {
+        position: relative;
+        display: block;
+        padding: 2px 0;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+        transform-origin: left center;
+    }
+    
+    .btnb .btn-area span::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 150%;
+        left: 0;
+        transform: skewY(30deg);
+        transform-origin: left center;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    .btnb:hover .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btnb:hover .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btnb:visited .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btnb:visited .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btnb:hover {
+        background: var(--color-1);
+    }
+    
+    .btnb {
+        padding: 15px 10px !important;
+        background: var(--color-1);
+        color: #fff;
+    }
+    h1{
+        font-size: 4rem;
+        color: var(--color-5);
+        font-family: 'Oswald', sans-serif;
+    }
+}
+@media (min-width: 1920px) {
+    a{
+        text-decoration: none;
+    }
+    .contr{
+        background-image: url(src\assets\resources\backgroundtexture.webp);
+        height: 45%;
+        width: 100%;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .botones {
+        transform: translateY(-80px);
+        display: flex;
+        align-items: center; 
+        margin-top: 20px; 
+    }
+    .btna {
+        margin: 20px;
+        font-family: 'Oswald', sans-serif;
+        border: none;
+        color: #fff !important;
+        padding: 20px 45px;
+        border-radius: 0;
+    }
+    
+    .btna:focus {
+        box-shadow: none;
+    }
+    
+    @media (max-width: 991px) {
+        .btna {
+            padding: 17px 40px;
+        }
+    }
+    
+    .btna .btn-area {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .btna .btn-area span {
+        position: relative;
+        display: block;
+        padding: 2px 0;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+        transform-origin: left center;
+    }
+    
+    .btna .btn-area span::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 150%;
+        left: 0;
+        transform: skewY(30deg);
+        transform-origin: left center;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    .btna:hover .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btna:hover .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btna:visited .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btna:visited .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btna:hover {
+        background: var(--color-5);
+    }
+    
+    .btna {
+        padding: 15px 40px !important;
+        background: var(--color-5);
+        color: #fff;
+    }
+    
+    
+    /*boton 2*/
+    .btnb {
+        margin: 35px;
+        font-family: 'Oswald', sans-serif;
+        border: none;
+        color: #fff !important;
+        padding: 20px 45px;
+        border-radius: 0;
+    }
+    
+    .btnb:focus {
+        box-shadow: none;
+    }
+    
+    @media (max-width: 991px) {
+        .btnb {
+            padding: 17px 40px;
+        }
+    }
+    
+    .btnb .btn-area {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .btnb .btn-area span {
+        position: relative;
+        display: block;
+        padding: 2px 0;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+        transform-origin: left center;
+    }
+    
+    .btnb .btn-area span::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 150%;
+        left: 0;
+        transform: skewY(30deg);
+        transform-origin: left center;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    .btnb:hover .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btnb:hover .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btnb:visited .btn-area span {
+        transform: translateY(-150%) skewY(7deg);
+    }
+    
+    .btnb:visited .btn-area span::after {
+        transform: skewY(-7deg);
+    }
+    
+    .btnb:hover {
+        background: var(--color-1);
+    }
+    
+    .btnb {
+        padding: 15px 10px !important;
+        background: var(--color-1);
+        color: #fff;
+    }
+    h1{
+        font-size: 4rem;
+        color: var(--color-5);
+        font-family: 'Oswald', sans-serif;
+    }
+}
+

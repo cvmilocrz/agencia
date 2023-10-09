@@ -1,0 +1,116 @@
+@media (max-width: 767px){
+    .navdel{
+        height: 50px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .tittle{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    h1{
+        font-size: 2rem;
+        color: var(--color-5);
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .principal{
+    padding-bottom: 50px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    }
+    .content{
+        width: 80%;
+        font-weight: bold;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1919px) {
+
+    .navdel{
+        height: 80px;
+        background-color: white;
+        width: 100%;
+    }
+
+    .tittle{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    h1{
+        font-size: 4rem;
+        color: var(--color-5);
+        font-family: 'Oswald', sans-serif;
+    }
+    .principal{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 50px;
+    }
+    .content{
+        width: 50%;
+        font-weight: bold;
+    }
+    
+    .tittle{
+        width: 50%;
+    }
+    .tittle h1{
+        font-family: 'Oswald', sans-serif;
+        color: var(--color-5);
+    }
+}
+
+@media (min-width: 1920px) {
+    .navdel{
+        height: 80px;
+        background-color: transparent;
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+    }
+    h1{
+        font-size: 4rem;
+        color: var(--color-5);
+        font-family: 'Oswald', sans-serif;
+    }
+    .principal{
+    height: auto;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    }
+    .content{
+        width: 50%;
+        font-weight: bold;
+    }
+    
+    .tittle{
+        width: 50%;
+    }
+    .tittle h1{
+        font-family: 'Oswald', sans-serif;
+        color: var(--color-5);
+    }
+}
+
+
